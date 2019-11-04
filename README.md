@@ -9,7 +9,6 @@ _"Dedicated to my love, to make programming joyful again."_
 * Game programming
 * Write bug-less code
 * Mathematical
-* Equational
 * Functional
 * Declarative
 * Concise
@@ -18,11 +17,10 @@ _"Dedicated to my love, to make programming joyful again."_
 * Fluid and unambiguous readability
 * Paper and pen friendly
 * Mobile phone friendly
+* ASCII
 * Auto-scale
-* Compiled language
+* Compiled
 * As fast as C
-* Compiles to C
-* Can call C functions
 * One line (no multi-lines)
 * No if-else condition
 * No loops
@@ -34,13 +32,12 @@ _"Dedicated to my love, to make programming joyful again."_
 * All lowercase
 * Fixed function and variable name length
 * No special characters on function and variable names
-* No global functions or variables
-* All functions and variables are local to source code
+* No globals
 * Enable code sharing and re-use
-* Inline everything for optimization
 * Static typing
 * Function names are verbs
 * Variable names are nouns
+* Rock
 
 ## Data types
 
