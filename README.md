@@ -12,12 +12,13 @@ _"Dedicated to my love, to make programming joyful again."_
 * Equational
 * Functional
 * Declarative
-* General purpose
 * Concise
+* General purpose
 * Familiar
 * Fluid and unambiguous readability
 * Paper and pen friendly
 * Mobile phone friendly
+* Auto-scale
 * Compiled language
 * As fast as C
 * Compiles to C
@@ -102,10 +103,9 @@ main() = out(a * b)
 ## Matrix multiplication
 
 ```
-a = 
- [1 2 3 4 5]
- [6 7 8 9 10]
- [11 12 13 14 15]
+a = [1 2 3 4 5]
+    [6 7 8 9 10]
+    [11 12 13 14 15]
 b = [1 2 3 4 5]
 main() = out(a * b)
 ```
@@ -113,9 +113,9 @@ main() = out(a * b)
 ## Condition
 
 ```
-f(a) = 0
-f(a < 10) = a + 1
-f(a >= 10) = 100
+f(a) =  { a+1 a<10
+        { 100 a>=10
+        { 0
 main() = out(f(3))
 ```
 
@@ -144,6 +144,6 @@ main() = walk() then run() then jump()
 
 ```
 x(n, f) = f(n)
-y(a) = a + 1
-main() = out(x(3, y))
+y(a)    = a + 1
+main()  = out(x(3, y))
 ```
